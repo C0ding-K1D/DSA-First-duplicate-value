@@ -1,6 +1,6 @@
-const isFirstDuplicateValue = require("isFirstDuplicateValue.js");
+const isFirstDuplicateValue = require("./isFirstDuplicateValue.js");
 
-describe("", () => {
+describe("is first duplicate value", () => {
   it("Should return the value of the first duplicate value", () => {
     const array = [9, 13, 6, 2, 3, 5, 5, 5, 3, 2, 2, 2, 2, 4, 3];
     expect(isFirstDuplicateValue(array).toBe(5));
