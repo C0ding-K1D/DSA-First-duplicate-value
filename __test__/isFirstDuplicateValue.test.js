@@ -1,4 +1,4 @@
-const isFirstDuplicateValue = require("./isFirstDuplicateValue.js");
+const isFirstDuplicateValue = require("../isFirstDuplicateValue");
 
 describe("is first duplicate value", () => {
   it("Should return the value of the first duplicate value", () => {
